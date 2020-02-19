@@ -1,0 +1,230 @@
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif, arial, Helvetica;
+    background-color: #E8E8E8;
+}
+
+/*Navigatie*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #595959;
+    border: none;
+}
+
+li {
+    display: inline-block;
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    padding: 39.1px 60px;
+    text-decoration: none;
+    border-bottom: 5px solid #595959;
+    font-size: 14px;
+}
+
+li a:hover {
+    background-color: #3F3F3F;
+    border-bottom: 5px solid #F6C90E;
+}
+
+li a:active {
+    background-color: #3F3F3F;
+    border-bottom: 5px solid #F64E8B;
+}
+.nav{
+    text-align: center;
+    overflow: hidden;
+}
+
+nav{
+    position: relative;
+}
+
+/*Logo*/
+.nav img
+{
+    width: 100px;
+    float: left;
+}
+
+/*Form*/
+        .wrap
+{
+    width: 500px;
+    height: 600px;
+    background-color: white;
+    display: block;
+    
+    position: absolute;
+	top: 100px;
+	bottom: 0;
+	left: 0;
+	right: 0;
+  	
+	margin: auto;
+    
+    border-left: 5px solid #F64E8B;
+    border-bottom: 5px solid #F64E8B;
+}
+
+.title{
+    text-align: center;
+    color: #3F3F3F;
+    margin: 0px;
+}
+
+form{
+    position: absolute;
+	top: 100px;
+	bottom: 100px;
+	left: 70px;
+	right: 70px;
+}
+
+form label{
+    color: #3F3F3F;
+    font-size: 18px;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 1px;
+  margin-bottom: 10px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #F64E8B;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #C84E8B;
+}
+
+@media screen and (max-width: 1014px) {
+       li a {
+    display: inline-block;
+    color: white;
+    padding: 42.5px 50px;
+    text-decoration: none;
+    border-bottom: 5px solid #595959;
+    font-size: 10px;
+  }
+    
+    form{
+    position: absolute;
+	top: 100px;
+	bottom: 100px;
+	left: 70px;
+	right: 70px;
+}
+}
+
+@media screen and (max-width: 1338px) {
+    li a {
+    display: inline-block;
+    color: white;
+    padding: 30.5px 60px;
+    text-decoration: none;
+    border-bottom: 5px solid #595959;
+    font-size: 14px;
+  }
+    
+    form{
+    position: absolute;
+	top: 100px;
+	bottom: 100px;
+	left: 70px;
+	right: 70px;
+}
+        .nav img
+{
+    width: 0px;
+    float: left;
+}
+    
+        input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 1px;
+  margin-bottom: 5px;
+  resize: vertical;
+}
+    
+}
+
+@media screen and (max-width: 910px) {
+   
+    li a {
+    display: inline-block;
+    color: white;
+    padding: 30.5px 5px;
+    text-decoration: none;
+    border-bottom: 5px solid #595959;
+    font-size: 14px;
+  }
+    
+    form{
+    position: absolute;
+	top: 100px;
+	bottom: 100px;
+	left: 70px;
+	right: 70px;
+}
+    
+    .wrap
+{
+    width: 300px;
+    height: 560px;
+    background-color: white;
+    display: block;
+    
+    position: absolute;
+	top: 100px;
+	bottom: 0;
+	left: 0;
+	right: 0;
+  	
+	margin: auto;
+    
+    border-left: 5px solid #F64E8B;
+    border-bottom: 5px solid #F64E8B;
+}
+    
+    input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 1px;
+  margin-bottom: 5px;
+  resize: vertical;
+}
+    
+    .nav img
+{
+    width: 0px;
+    float: left;
+}
+}

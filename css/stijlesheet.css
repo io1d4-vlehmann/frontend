@@ -2,18 +2,20 @@ h1{
     text-align: center;
 }
 .content{
-    width: 100%;
+    width: 1000px;
     margin: auto;
     background-color: lightgrey;
     font-family: sans-serif;
-    border-bottom-color: fuchsia;
-    border-left-color: fuchsia;
+    border-left: 5px solid #F64E8B;
+    border-bottom: 5px solid #F64E8B;
+    margin-top: 20px;
+    padding: 10px;
 }
 
 form > div{
     float: left;
     width: 20%;
-    margin-top: 15%;
+    margin-top: 200px;
     margin-left: 10%;
     height: 10;
 }
@@ -24,7 +26,6 @@ form >input{
 }
 
 #inleiding{
-    background-color: #3F3F3F;
     width: 60%;
     margin: auto;
     text-align: center;

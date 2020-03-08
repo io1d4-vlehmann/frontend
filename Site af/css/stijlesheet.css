@@ -1,0 +1,46 @@
+h1{
+    text-align: center;
+}
+.content{
+    width: 1000px;
+    margin: auto;
+    background-color: lightgrey;
+    font-family: sans-serif;
+    border-left: 5px solid #F64E8B;
+    border-bottom: 5px solid #F64E8B;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+form > div{
+    float: left;
+    width: 20%;
+    margin-top: 200px;
+    margin-left: 10%;
+    height: 10;
+}
+
+form >input{
+    margin: auto;
+    display: table;
+}
+
+#inleiding{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+#antwoord{
+    width: 20%;
+    margin: auto;
+    text-align: center;
+}
+#form{
+    margin: auto;
+    width: 60%;
+    height: 30%;
+}
+#knop{
+    margin: auto;
+    text-align: center;
+}

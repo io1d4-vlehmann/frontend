@@ -1,0 +1,45 @@
+h1{
+    text-align: center;
+}
+.content{
+    width: 100%;
+    margin: auto;
+    background-color: lightgrey;
+    font-family: sans-serif;
+    border-bottom-color: fuchsia;
+    border-left-color: fuchsia;
+}
+
+form > div{
+    float: left;
+    width: 20%;
+    margin-top: 15%;
+    margin-left: 10%;
+    height: 10;
+}
+
+form >input{
+    margin: auto;
+    display: table;
+}
+
+#inleiding{
+    background-color: #3F3F3F;
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+#antwoord{
+    width: 20%;
+    margin: auto;
+    text-align: center;
+}
+#form{
+    margin: auto;
+    width: 60%;
+    height: 30%;
+}
+#knop{
+    margin: auto;
+    text-align: center;
+}

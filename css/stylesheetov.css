@@ -300,3 +300,62 @@ input[type=submit]:hover {
     float: left;
 }
 }
+
+/* Mediaqueries*/
+
+@media screen and (max-width: 800px)
+{
+    #s1
+    {
+        left: 150px;
+    }
+    #s2
+    {
+        position: absolute;
+        top: 45pc;
+        left: 150px;
+    }  
+    #vinyl
+    {
+        width: 25pc;
+    }
+    #Logo
+    {
+        width: 5pc;
+    }
+}
+
+@media only screen (orientation: portrait)
+{
+    #s1
+    {
+        left: 150px;
+    }
+    #s2
+    {
+        position: absolute;
+        top: 50pc;
+        left: 150px;
+    }  
+    #vinyl
+    {
+        width: 25pc;
+    }
+    #Logo
+    {
+        width: 5pc;
+    }
+}
+@media only screen (max-width: 1100)
+{
+    #s2
+    {
+        width: 20%;
+        height: 10pc;
+        position: absolute;
+        top: 25pc;
+        left: 10pc;
+        
+    }
+    
+}
